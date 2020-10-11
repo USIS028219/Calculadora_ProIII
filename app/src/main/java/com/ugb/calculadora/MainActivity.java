@@ -112,7 +112,7 @@ public class MainActivity extends AppCompatActivity {
         @Override
         public boolean onContextItemSelected(@NonNull MenuItem item) {
                 switch (item.getItemId()){
-                        case R.id.mnxAgregarProduct:
+                        case R.id.mnxAgregarProducto:
                                 agregarNuevosProductos("nuevo", jsonObject);
                                 return true;
 
